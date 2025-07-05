@@ -95,7 +95,7 @@ function getFact() {
         let randomFact =getRandomFact( "Capricorn");
         console.log(randomFact)
         zodiacFact.textContent = randomFact;
-        imageElement.src = "images/Capricorn.png";
+        imageElement.src = "images/capricorn.png";
         imageElement.style.display = "block";
 
     } else if ((month === 0 && date >= 20) || (month === 1 && date <= 18)) {
@@ -104,7 +104,7 @@ function getFact() {
         let randomFact =getRandomFact( "Aquarius");
         console.log(randomFact)
         zodiacFact.textContent = randomFact;
-        imageElement.src = "images/Aquarius.png";
+        imageElement.src = "images/aquarius.png";
         imageElement.style.display = "block";
     } else if ((month === 2 && date >= 21) || (month === 3 && date <= 19)) {
         console.log("Pisces");
@@ -112,7 +112,7 @@ function getFact() {
         let randomFact =getRandomFact( "Pisces");
         console.log(randomFact)
         zodiacFact.textContent = randomFact;
-        imageElement.src = "images/Pisces.png";
+        imageElement.src = "images/pisces.png";
         imageElement.style.display = "block";
     } else if ((month === 2 && date >= 20) || (month === 3 && date <= 20)) {
         console.log("Aries");
@@ -120,7 +120,7 @@ function getFact() {
         let randomFact =getRandomFact( "Aries");
         console.log(randomFact)
         zodiacFact.textContent = randomFact;
-        imageElement.src = "images/Aries.png";
+        imageElement.src = "images/aries.png";
         imageElement.style.display = "block";
     } else if ((month === 3 && date >= 21) || (month === 4 && date <= 20)) {
         console.log("Taurus");
@@ -128,7 +128,7 @@ function getFact() {
         let randomFact =getRandomFact( "Taurus");
         console.log(randomFact)
         zodiacFact.textContent = randomFact;
-        imageElement.src = "images/Taurus.png";
+        imageElement.src = "images/taurus.png";
         imageElement.style.display = "block";
     } else if ((month === 4 && date >= 21) || (month === 5 && date <= 22)) {
         console.log("Gemini");
@@ -136,7 +136,7 @@ function getFact() {
         let randomFact =getRandomFact( "Gemini");
         console.log(randomFact)
         zodiacFact.textContent = randomFact;
-        imageElement.src = "images/Gemini.png";
+        imageElement.src = "images/gemini.png";
         imageElement.style.display = "block";
     } else if ((month === 5 && date >= 23) || (month === 6 && date <= 22)) {
         console.log("Cancer");
@@ -144,7 +144,7 @@ function getFact() {
         let randomFact =getRandomFact( "Cancer");
         console.log(randomFact)
         zodiacFact.textContent = randomFact;
-        imageElement.src = "images/Cancer.png";
+        imageElement.src = "images/cancer.png";
         imageElement.style.display = "block";
     } else if ((month === 6 && date >= 23) || (month === 7 && date <= 22)) {
         console.log("Leo");
@@ -152,7 +152,7 @@ function getFact() {
         let randomFact =getRandomFact( "Leo");
         console.log(randomFact)
         zodiacFact.textContent = randomFact;
-        imageElement.src = "images/Leo.png";
+        imageElement.src = "images/leo.png";
         imageElement.style.display = "block";
     } else if ((month === 7 && date >= 23) || (month === 8 && date <= 22)) {
         console.log("Virgo");
@@ -160,7 +160,7 @@ function getFact() {
         let randomFact =getRandomFact( "Virgo");
         console.log(randomFact)
         zodiacFact.textContent = randomFact;
-        imageElement.src = "images/Virgo.png";
+        imageElement.src = "images/virgo.png";
         imageElement.style.display = "block";
     } else if ((month === 8 && date >= 23) || (month === 9 && date <= 21)) {
         console.log("Libra");
@@ -176,7 +176,7 @@ function getFact() {
         let randomFact =getRandomFact( "Scorpio");
         console.log(randomFact)
         zodiacFact.textContent = randomFact;
-        imageElement.src = "images/Scorpio.png";
+        imageElement.src = "images/scorpio.png";
         imageElement.style.display = "block";
     } else {
         console.log("Sagittarius");
@@ -184,7 +184,7 @@ function getFact() {
         let randomFact =getRandomFact( "Sagittarius");
         console.log(randomFact)
         zodiacFact.textContent = randomFact;
-        imageElement.src = "images/Sagittarius.png";
+        imageElement.src = "images/sagittarius.png";
         imageElement.style.display = "block";
     }
 
